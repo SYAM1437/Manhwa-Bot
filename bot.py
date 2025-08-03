@@ -184,7 +184,7 @@ class Manhwa_Bot(pyrogram.Client, Vars):
 
     """)
     self.username = usr_bot_me.username
-    self.logger.info("Make By https://t.me/Wizard_Bots ")
+    self.logger.info("Make By https://t.me/BOTSKINGDOMS ")
     self.logger.info(f"Manhwa Bot Started as {usr_bot_me.first_name} | @{usr_bot_me.username}")
     
     if self.WEBS_HOST:
@@ -197,7 +197,7 @@ Sleep mode deactivated. Neural cores at 100%. Feed me tasks, and watch magic hap
     
     button = [[
       InlineKeyboardButton('*Start Now*', url= f"https://t.me/{usr_bot_me.username}?start=start"),
-      InlineKeyboardButton("*Channel*", url = "telegram.me/Wizard_Bots")
+      InlineKeyboardButton("*Channel*", url = "https://t.me/BOTSKINGDOMS")
     ]]
     
     try: await self.send_photo(self.UPDATE_CHANNEL, photo=PICS, caption=MSG, reply_markup=InlineKeyboardMarkup(button))
